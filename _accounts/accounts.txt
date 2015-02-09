@@ -1,5 +1,8 @@
 Database
-U:W3Task
-P:W3Task
-DB:W3Task
+U:user1
+P:user1
+DB:user1
 
+Magento Admin:
+U:user
+P:user1234

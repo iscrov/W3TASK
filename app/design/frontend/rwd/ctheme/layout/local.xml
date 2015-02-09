@@ -15,4 +15,14 @@
                 <block type="core/template" name="header_static_block" template="headerstaticblock.phtml" />
             </reference>
         </default>
+        <cms_index_index>
+            <reference name="content">
+                <block type="catalog/product_list" name="product_list" template="catalog/product/list.phtml">
+                    <block type="core/text_list" name="product_list.name.after" as="name.after" />
+                    <block type="core/text_list" name="product_list.after" as="after" />
+                    <action method="setCategoryId"><catId>3</catId></action>
+                    <action method="setColumnCount"><count>4</count></action>
+                </block>
+            </reference>
+        </cms_index_index>
     </layout>

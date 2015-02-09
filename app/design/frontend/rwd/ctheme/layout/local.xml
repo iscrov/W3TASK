@@ -10,5 +10,9 @@
                 <action method="addCss"><stylesheet>css/local.css</stylesheet>
                 </action>
             </reference>
+
+            <reference name="header">
+                <block type="core/template" name="header_static_block" template="headerstaticblock.phtml" />
+            </reference>
         </default>
     </layout>

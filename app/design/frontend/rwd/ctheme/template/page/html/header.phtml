@@ -48,7 +48,7 @@
 
 
         </a>
-        <?php echo $this->getChildHtml('header_static_block'); ?>
+        <?php echo $this->getChildHtml('affiliates_head'); ?>
 
         <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
               // See app.js for details ?>
@@ -92,7 +92,11 @@
         <!-- Search -->
 
         <div id="header-search" class="skip-content">
-            <?php echo $this->getChildHtml('topSearch') ?>
+            <?php
+                echo $this->getChildHtml('headernewsletter'); 
+                //echo $this->getChildHtml('topSearch')
+             ?>
+
         </div>
 
         <!-- Account -->
